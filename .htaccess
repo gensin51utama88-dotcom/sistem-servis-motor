@@ -1,0 +1,4 @@
+Options -Indexes
+<FilesMatch "^(\.env.*|.*\.sql|MIGRASI-SUPABASE\.md|Dockerfile)$">
+  Require all denied
+</FilesMatch>
